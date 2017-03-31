@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint-config-standard-react": "^4.3.0",
+    "lerna": "2.0.0-beta.38",
+    "standard": "^9.0.2"
+  },
+  "scripts": {
+    "client:dev": "cd packages/client && npm run dev",
+    "server:start": "cd packages/server && npm run start",
+    "test": "lerna run test --stream"
+  }
+}

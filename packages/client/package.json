@@ -1,0 +1,47 @@
+{
+  "dependencies": {
+    "feathers": "^2.1.1",
+    "feathers-hooks": "^1.8.1",
+    "feathers-reactive": "^0.4.1",
+    "feathers-socketio": "^1.5.2",
+    "formsy-material-ui": "^0.5.5",
+    "formsy-react": "^0.19.2",
+    "material-ui": "^0.17.1",
+    "next": "^2.0.1",
+    "pagination-material-ui": "hubgit/pagination-material-ui",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "rxjs": "^5.2.0",
+    "socket.io-client": "^1.7.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "extends": [
+      "standard",
+      "standard-react"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "presets": [
+      "standard",
+      "react:recommended"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "react/jsx-boolean-value": 0,
+      "react/jsx-space-before-closing": 0,
+      "jsx-quotes": 0
+    }
+  }
+}
